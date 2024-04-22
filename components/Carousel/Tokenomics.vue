@@ -49,39 +49,33 @@
         </div>
       </div>
 </template>
-<script>
+<script setup>
 import Glide from '@glidejs/glide';
 import '@glidejs/glide/dist/css/glide.core.min.css';
-export default {
-  data(){
-    return {
-      supply: 50000000
-    }
-  },
-  mounted(){
-    new Glide('.glide', {
-      type: 'carousel',
-      focusAt: 'center',
-      autoplay: 2000,
-      gap: 20,
-      peek: 30,
-      perView: 1,
-      animationDuration: 1000,
-      breakpoints: {
-        600: {
-          perView: 1
-        },
-        1024: {
-          perView: 3
-        },
-        1440: {
-          perView: 4
-        },
-        12000: {
-          perView: 5
-        }
+const supply = 50000000;
+onMounted(() =>{
+  new Glide('.glide', {
+    type: 'carousel',
+    focusAt: 'center',
+    autoplay: 2000,
+    gap: 20,
+    peek: 30,
+    perView: 1,
+    animationDuration: 1000,
+    breakpoints: {
+      600: {
+        perView: 1
+      },
+      1024: {
+        perView: 3
+      },
+      1440: {
+        perView: 4
+      },
+      12000: {
+        perView: 5
       }
-    }).mount()
-  }
-}
+    }
+  }).mount()
+})
 </script>
