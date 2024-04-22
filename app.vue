@@ -16,14 +16,14 @@
           <img src="/logo.png" class="h-16" alt="Solwifhat logo">
         </div>
         <div class="flex gap-5 mt-5">
-          <UiButtonsPrimary :flexdisplay="true">
+          <NuxtLink class="gradient py-2 px-5 text-white font-medium text-base 2xl:text-lg justify-center rounded-lg outline-none flex gap-4 items-center" to="https://t.me/Solanawifhat">
             <IconsTelegram class="w-6" />
             Join Telgram
-          </UiButtonsPrimary>
-          <UiButtonsPrimary :flexdisplay="true">
+          </NuxtLink>
+          <NuxtLink to="https://twitter.com/SolWifHat1" class="gradient py-2 px-5 text-white font-medium text-base 2xl:text-lg justify-center rounded-lg outline-none flex gap-4 items-center" >
             <IconsTwitter class="w-6" />
             Follow on X
-          </UiButtonsPrimary>
+          </NuxtLink>
         </div>
       </div>
 
@@ -129,6 +129,23 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.gradient {
+  background-size: 300% 100%;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(45deg,  #c023d7, #32ecc5, #32ecc5, #32ecc5);
+}
+
+.gradient:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 </style>
 <script>
