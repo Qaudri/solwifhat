@@ -8,17 +8,17 @@ h1 {
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  background-image: linear-gradient(45deg,  #c023d7, #32ecc5, #32ecc5, #32ecc5);
-  animation: playgradient 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(45deg,  #c023d7, #32ecc5, #32ecc5);
+  animation: playgradient 3s ease-in-out infinite alternate-reverse;
 }
 
 @keyframes playgradient {
   from {
-    background-position: 0 100%;
+    background-position: left top;
   }
 
   to {
-    background-position: 100% 0;
+    background-position: right bottom;
   }
 }
 </style>
