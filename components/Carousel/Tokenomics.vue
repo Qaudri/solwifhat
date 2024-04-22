@@ -50,7 +50,8 @@
       </div>
 </template>
 <script>
-import Glide from '@glidejs/glide'
+import Glide from '@glidejs/glide',
+import '@glidejs/glide/dist/css/glide.core.min.css';
 export default {
   data(){
     return {
