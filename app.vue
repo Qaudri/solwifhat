@@ -120,8 +120,8 @@
 
   <section class="px-6 max-w-6xl py-8 mx-auto">
     <UiTypographyH2>Disclaimer</UiTypographyH2>
-    <div class="rounded-xl bg-gradient-to-tr from-secondary via-primary to-primary p-0.5">
-      <div class="bg-gradient-to-tr from-tertiary to-gray-700 p-5 rounded-xl bg-opacity-50 backdrop-blur h-full mt-5">
+    <div class="rounded-xl bg-gradient-to-tr from-secondary via-primary to-primary p-0.5 mt-5">
+      <div class="bg-gradient-to-tr from-tertiary to-gray-700 p-5 rounded-xl bg-opacity-50 backdrop-blur h-full">
         <UiTypographyP>SolWifHat is a meme token operating on the Solana blockchain. The information provided on our website and other communication channels is solely for informational purposes and does not constitute investment advice. <br>
         Solwifhat shall not be held responsible for any losses incurred as a result of using the information provided on our website or other communication channels.
         </UiTypographyP>
