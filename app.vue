@@ -20,7 +20,7 @@
             <IconsTelegram class="w-6" />
             Join Telgram
           </NuxtLink>
-          <NuxtLink to="https://twitter.com/SolWifHat1" class="gradient py-2 px-5 text-white font-medium text-base 2xl:text-lg justify-center rounded-lg outline-none flex gap-4 items-center" >
+          <NuxtLink to="https://x.com/SolWifHatcto?t=uCIDgZjI44Kx3csU1n-6DA&s=09" class="gradient py-2 px-5 text-white font-medium text-base 2xl:text-lg justify-center rounded-lg outline-none flex gap-4 items-center" >
             <IconsTwitter class="w-6" />
             Follow on X
           </NuxtLink>
